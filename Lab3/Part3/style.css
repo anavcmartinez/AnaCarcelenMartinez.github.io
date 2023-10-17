@@ -1,3 +1,18 @@
+/*Add 2 custom fonts - fontsquirrel.com*/
+@font-face {
+    font-family: "AbhayaLibre-Regular";
+    src: url("Part3\Fonts\AbhayaLibre-Regular.ttf") format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "abel-regular";
+    src: url("Part3\Fonts\abel-regular.ttf") format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* General setup */
 
 * {
