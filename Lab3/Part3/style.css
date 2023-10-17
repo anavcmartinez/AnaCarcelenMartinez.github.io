@@ -140,3 +140,28 @@ ol {
   /*lower-latin list style type will display a,b,c*/
   list-style-type: lower-latin;
 }
+
+/*Navigation Menu*/
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid rgb(131, 43, 43);
+  list-style-type: none;
+}
+
+nav ul {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 3rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+
