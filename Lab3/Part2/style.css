@@ -1,21 +1,25 @@
 html {
   font-family: sans-serif;
+  
 }
 /* Your CSS below here */
-p{
+div{
     width: 200px;
-    height: 50px;
+    height: 80px;
     text-align: center;
+    line-height: 2.5;
     /* 17-18 px to rem calculations
     1rem = 10px
     18 px= 1.8rem
+    17 px = 1.7rem
     */
-    font-size: 1.8rem;
-    color: #ef0404;
-    text-shadow: 1px 1px 2px rgb(19, 19, 19);
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
     border-radius: 8px;
     border: 1px solid #9a0303;
     background: #d50000 linear-gradient(to top left, rgba(0, 0, 0, 0.2) 30%, #d50000);
+    box-shadow: 3px 3px 3px rgb(67, 67, 67), inset 1px 1px 2px rgba(255, 255, 255, 0.681), inset -2px -2px 3px rgba(0, 0, 0, 0, 0.66);
 
 }
 
