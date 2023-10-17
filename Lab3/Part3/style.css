@@ -77,4 +77,12 @@ footer{
   font-size: 1.5em;
   line-height: 1.6;
 }
+h2{
+  font-family: "abel-regular", sans-serif;
+  letter-spacing: 1px;
+}
+body{
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
 
