@@ -1,18 +1,3 @@
-/*Add 2 custom fonts - fontsquirrel.com*/
-@font-face {
-    font-family: "AbhayaLibre-Regular";
-    src: url("Part3\Fonts\AbhayaLibre-Regular.ttf") format(ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "abel-regular";
-    src: url("Part3\Fonts\abel-regular.ttf") format(ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* General setup */
 
 * {
@@ -59,6 +44,21 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
+/*Add 2 custom fonts - fontsquirrel.com*/
+@font-face {
+  font-family: "AbhayaLibre-Regular";
+  src: url("Part3\Fonts\AbhayaLibre-Regular.ttf") format(ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "abel-regular";
+  src: url("Part3\Fonts\abel-regular.ttf") format(ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 10px;
   font-family: "AbhayaLibre-Regular", serif;
@@ -86,3 +86,38 @@ body{
   word-spacing: 1px;
 }
 
+/*Give the first paragraph after each heading in the <section> a little bit of text-indentation*/
+
+section h2 + p {
+  text-indent: 20px;
+}
+/*Links*/
+
+a {
+  color: #a96161;
+/* Remove the default focus outline */
+  outline: none;
+}
+
+a:visited {
+  color: #6a6767;
+}
+
+a:focus {
+  color: #bd0c0c;
+}
+
+a:hover {
+  color: #e05b5b;
+  text-decoration: none;
+}
+
+a:active {
+  color: #935757;
+  text-shadow: 1px 1px 1px #d59898;
+}
+
+a[href^="http"] {
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+}
