@@ -58,3 +58,13 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+html {
+  font-size: 10px;
+  font-family: "AbhayaLibre-Regular", serif;
+}
+
+header{
+  font-family: "abel-regular", sans-serif;
+  text-align: center;
+}
