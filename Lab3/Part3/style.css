@@ -74,7 +74,7 @@ section,
 aside,
 nav,
 footer{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 h2{
@@ -91,6 +91,7 @@ body{
 section h2 + p {
   text-indent: 20px;
 }
+
 /*Links*/
 
 a {
@@ -120,4 +121,22 @@ a:active {
 a[href^="http"] {
   background: url("external-link-52.png") no-repeat 100% 0;
   background-size: 16px 16px;
+  /*Will add padding to move icon to the right a bit*/
+  padding-right: 20px;
+}
+
+/* Lists */
+/* Add margins to make spacing even */
+ul, ol {
+  margin: 1.5rem 0;
+}
+
+ul {
+  /*square bullets to match example given*/
+  list-style-type: square;
+}
+
+ol {
+  /*lower-latin list style type will display a,b,c*/
+  list-style-type: lower-latin;
 }
