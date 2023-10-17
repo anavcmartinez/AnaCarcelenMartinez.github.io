@@ -68,3 +68,13 @@ header{
   font-family: "abel-regular", sans-serif;
   text-align: center;
 }
+/*Give all element types appropiate font-sizes using a suitable relative unit*/
+header,
+section, 
+aside,
+nav,
+footer{
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+
