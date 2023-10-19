@@ -55,4 +55,8 @@ body {
 
   .feature {
       width: 200px;
+      /** Modify image within text **/
+      float: left; 
+      padding-right: 1em;
+      padding-bottom: 1em;
   }
