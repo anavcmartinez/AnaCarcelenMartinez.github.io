@@ -1,5 +1,12 @@
-//Initial variables and functions
+/**
+ * Name: Ana Carcelen Martinez
+	File: main.js
+	Date: 21, November, 2023
+	This file has all the variables and functions needed to run the silly story generator
+    We will declare variables, functions, and if statements.
+ */
 
+//Initial variables and functions
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
