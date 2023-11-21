@@ -45,11 +45,16 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+    //Update weight
+    const weight =  `${Math.round(300*0.0714286)} stone`;
+    //Update temperature 
+    const temperature =  `${Math.round((94-32)*(5/9))} centigrade`;
+    //Replace values
+    newStory = newStory.replaceAll("94 fahrenheit", temperature);
+    newStory = newStory.replaceAll("300 pounds", weight);
 
   }
-
-  story.textContent = ;
+  // update textContent property = newStory
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
