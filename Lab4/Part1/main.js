@@ -30,12 +30,17 @@ function result() {
     const yItem = randomValueFromArray(insertY);
     const zItem = randomValueFromArray(insertZ);
 
-    
+    //Replace 3 place holders
+    newStory = newStory.replaceAll(":insertx:",xItem);
+    newStory = newStory.replaceAll(":inserty:",yItem);
+    newStory = newStory.replaceAll(":insertz:",zItem);
 
 
 
   if(customName.value !== '') {
     const name = customName.value;
+    //Replace 'Bob' with custom name from input
+    newStory = newStory.replaceAll('Bob', name);
 
   }
 
