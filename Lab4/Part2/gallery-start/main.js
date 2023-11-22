@@ -27,7 +27,7 @@ for (let i=1; i<=5; i++) {
     const newImage = document.createElement('img');
     //Replace src and alt placeholder values
     newImage.setAttribute('src', `images/pic${i}.jpg`);
-    newImage/setAttribute('alt', alternativeText[i-1]);
+    newImage.setAttribute('alt', alternativeText[(i-1)]);
     //Append new img inside thumbBar
     thumbBar.appendChild(newImage);
     //Add a click event listener
