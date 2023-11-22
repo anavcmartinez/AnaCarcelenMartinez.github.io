@@ -38,3 +38,21 @@ for (let i=1; i<=5; i++) {
 }
 
 /* Wiring up the Darken/Lighten button */
+// Add a click event listener, use getAttribute for class name 
+btn.addEventListener('click', () =>  { const buttonClass = btn.getAttribute('class');
+//if class is 'dark', change to 'light'
+if(buttonClass === 'dark'){
+    btn.setAttribute('class', 'light');
+    //Change text content to 'Lighten'
+    btn.textContent = 'Lighten';
+    //Change background color of the overlay <div> to "rgba(0,0,0,0.5)"
+    overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+} else {
+    //If class is not dark, change to dark
+    btn.setAttribute('class', 'dark');
+    //Change text content to 'Darken'
+    btn.textContent = 'Darken';
+    //Change background color of the overlay <div> to "rgba(0,0,0,0)"
+    overlay.style.backgroundColor = "rgba(0,0,0,0)";
+}
+});
