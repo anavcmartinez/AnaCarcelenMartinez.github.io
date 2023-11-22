@@ -1,3 +1,12 @@
+/**
+    Name: Ana Carcelen Martinez
+	File: main.js
+	Date: 22, November of 2023
+	This file contains the JavaScript code to run the image gallery
+    We create arrays, iterate through them, and modify their content
+    We modify the button with and event listener
+    */
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
