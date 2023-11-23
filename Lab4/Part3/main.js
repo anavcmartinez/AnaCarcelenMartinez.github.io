@@ -28,6 +28,8 @@ function randomRGB() {
 
 //Class provided by mdn web docs
 class Ball {
+
+    
     constructor(x, y, velX, velY, color, size) {
       this.x = x;
       this.y = y;
