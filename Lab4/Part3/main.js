@@ -1,6 +1,13 @@
+/**
+ * Name: Ana Carcelen Martinez
+	File: main.js
+	Date: 23 November 2023
+	This file will contain all necessary variables, functions, and objects for index.html to run properly
+ */
 // setup canvas
 
 const canvas = document.querySelector('canvas');
+// ctx is object that directly represents the drawing area of the canvas
 const ctx = canvas.getContext('2d');
 
 const width = (canvas.width = window.innerWidth);
