@@ -1,3 +1,11 @@
+/**
+ * Name: Ana Carcelen Martinez
+	File: main-finished.js
+	Date: 24 November 2023
+	This file will contain all necessary variables, functions, and objects for index-finished.html to run properly
+    We have added an evil circle to the program and created new classes
+ */
+
 // set up canvas
 
 //Create a variable that stores a reference to the paragraph
