@@ -29,15 +29,17 @@ class Shape {
   
   }
 
-class Ball {
+class Ball extends Shape {
 
    constructor(x, y, velX, velY, color, size) {
-      this.x = x;
-      this.y = y;
-      this.velX = velX;
-      this.velY = velY;
-      this.color = color;
-      this.size = size;
+    //Use super() to call shape constructor 
+    super(x, y, velX, velY);
+      
+    // Initialize its own color and size properties from the parameters it is given.
+    this.color = color;
+    this.size = size;
+    // New boolean property exists, check if the ball has been eaten by the evil circle. Set to true
+    this.exists = true;
    }
 
    draw() {
