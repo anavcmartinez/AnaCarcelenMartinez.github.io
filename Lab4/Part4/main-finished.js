@@ -86,6 +86,37 @@ class Ball extends Shape {
 
 }
 
+class EvilCircle extends Shape {
+
+    constructor(x, y){
+        //Use super() to call shape constructor. Hard code 20 as values
+        super(x, y, 20, 20)
+        //set color to white and size to 10
+        this.color = "white";
+        this.size = 10;
+
+        //Enable user to move evil circle around. Code provided by mdn web docs
+        window.addEventListener("keydown", (e) => {
+            switch (e.key) {
+              case "a":
+                this.x -= this.velX;
+                break;
+              case "d":
+                this.x += this.velX;
+                break;
+              case "w":
+                this.y -= this.velY;
+                break;
+              case "s":
+                this.y += this.velY;
+                break;
+            }
+          });
+
+    }
+
+}
+
 const balls = [];
 
 while (balls.length < 25) {
