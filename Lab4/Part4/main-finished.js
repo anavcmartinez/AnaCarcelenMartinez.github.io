@@ -128,7 +128,7 @@ class EvilCircle extends Shape {
         ctx.stroke();
       }
 
-      checkBounds() {
+    checkBounds() {
         if ((this.x + this.size) >= width) {
           this.x -= this.size;
         }
@@ -186,6 +186,8 @@ while (balls.length < 25) {
   paragraph.textContent = "Ball count: " + count;
 }
 
+const evilCircle = new EvilCircle(random(0, width), random(0, height));
+
 function loop() {
    ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
    ctx.fillRect(0, 0,  width, height);
@@ -200,9 +202,9 @@ function loop() {
    }
 
    //This methods have to be called on every iteration
-   evilBall.draw();
-   evilBall.checkBounds();
-   evilBall.collisionDetect();
+   evilCircle.draw();
+   evilCircle.checkBounds();
+   evilCircle.collisionDetect();
 
    requestAnimationFrame(loop);
 }
