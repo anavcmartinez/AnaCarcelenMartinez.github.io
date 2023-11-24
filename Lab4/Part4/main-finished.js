@@ -1,5 +1,10 @@
 // set up canvas
 
+//Create a variable that stores a reference to the paragraph
+const paragraph = document.querySelector("p");
+//Keep a count of the number of balls on screen in some way.
+let count = 0;
+
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
@@ -150,6 +155,9 @@ class EvilCircle extends Shape {
     
             if (distance < this.size + ball.size) {
               ball.exists = false;
+              //Decrement the count and display the updated number of balls each time the evil circle eats a ball
+              count -= 1;
+              paragraph.textContent = "Ball count: " + count;
             }
           }
         }
@@ -173,6 +181,9 @@ while (balls.length < 25) {
    );
 
   balls.push(ball);
+  //update counter and value displayed (ball is added to the scene)
+  count += 1;
+  paragraph.textContent = "Ball count: " + count;
 }
 
 function loop() {
