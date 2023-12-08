@@ -181,11 +181,11 @@ audio {
   cursor: pointer;
 }
 
-.comments font[size="6"] {
+.comments h2 {
   font-size: 2rem;
 }
 
-.comments font[size="6"]:nth-of-type(2) {
+.comments h2:nth-of-type(2) {
   margin-bottom: 0;
 }
 
@@ -209,10 +209,11 @@ audio {
   flex: 6;
 }
 
+/* This isnt necessary 
 .show-hide {
   text-align: center;
   width: 150px;
-}
+} */
 
 .comment-form input, .comment-form label, .show-hide {
   font-size: 1.6rem;
