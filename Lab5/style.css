@@ -1,4 +1,4 @@
-/* || General setup */
+ /* || General setup */
 
 html, body {
   margin: 0;
@@ -52,7 +52,7 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: white;
 }
 
 article, footer, .secondary {
