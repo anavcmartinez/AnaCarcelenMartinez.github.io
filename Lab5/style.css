@@ -1,4 +1,13 @@
- /* || General setup */
+/*
+Name: Ana Carcelen Martinez
+	File: style.css
+	Date: 08 December 2023
+	This file contains the CSS code to style our website
+  Provided by mdn web docs
+  We made the necessary changes to ensure styling applies to the elements in our HTML file 
+*/
+
+/* || General setup */
 
 html, body {
   margin: 0;

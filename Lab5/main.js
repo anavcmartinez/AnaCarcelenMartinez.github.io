@@ -1,3 +1,11 @@
+/*
+Name: Ana Carcelen Martinez
+	File: main.js
+	Date: 08 December 2023
+	This file contains the JavaScript code that adds functionality to our website
+  We made no changes to this file. Provided by mdn web docs
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
